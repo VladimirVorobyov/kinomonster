@@ -1,9 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Киномонстер</title>
   </head>
-  <body></body>
+  <body>
+    <p>
+      Lorem <i>ipsum dolor <strong>sit</strong> amet </i> adipisicing elit
+      <mark>natus labore,</mark> tempora <b>quaerat </b>nihil assumenda
+      <del>animi distinctio</del>
+      H<sub>2</sub>O.
+    </p>
+    <form action="" method="get">
+      <label for="login">Login</label>
+      <input type="text" name="login" placeholder="login" value="Wowa" />
+      <label for="password">Password</label>
+      <input type="password" name="password" placeholder="password" />
+      <input disabled type="text" placeholder="хуй тебе" />
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
+    </form>
+    <form action="" method="post">
+      <label for="avatar">Avatar</label>
+      <input type="file" name="avatar" accept="image/png, image/jpeg" />
+      <button type="submit">Send</button>
+    </form>
+    <form action="">
+      <input type="color" name="color" />
+      <label for="color">Color</label>
+    </form>
+    <form>
+      <label for="age">AGE</label>
+      <input name="age" type="number" min="18" max="99" step="10" />
+    </form>
+    <form action="">
+      <label for="phone" id="phone">Выпадающий список</label>
+      <select name="phone" id="phone">
+        <option value="">Your Phone</option>
+        <option value="apple" selected>Apple</option>
+        <option value="nokia">Nokia</option>
+        <option value="samsung" disabled>Samsung</option>
+      </select>
+    </form>
+  </body>
 </html>
